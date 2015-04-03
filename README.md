@@ -11,7 +11,6 @@ Built process made by Fluffynukeit (http://fluffynukeit.com/setting-up-a-haskell
 
 ## Steps
 
-# based on Fluffynukeit post
 mkdir projectomatic
 snap init barebones
 projectomatic -p 8000
@@ -22,9 +21,8 @@ export NIXPKGS_ALLOW_UNFREE=1;
 change bla256 by src=./.;
 nix-build
 result/bin/projectomatic -p 8000
-curl http://0.0.0.0:8000 # Hello World
+curl http://0.0.0.0:8000
 
-# based on Janbrain post
 
 
 ## Build
