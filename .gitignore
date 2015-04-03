@@ -1,0 +1,5 @@
+.ghci
+result
+log/*
+site_key.txt
+*.swp
